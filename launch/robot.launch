@@ -1,0 +1,7 @@
+<launch>
+	<node name="eyes" type="eyes_node.py"/>
+	<node name="serial" type="serial_node.py"/>
+	<node name="six_axis" type="six_axis_node.py"/>
+	<node name="ble" type="ble_node.py"/>
+	<node name="camera" type="camera_node.py"/>
+</launch>

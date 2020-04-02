@@ -1,0 +1,8 @@
+install(PROGRAMS
+   scripts/six_axis_node.py
+   scripts/ble_node.py
+   scripts/eyes_node.py
+   scripts/serial_node.py
+   scripts/camera_node.py
+   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
